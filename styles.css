@@ -67,7 +67,7 @@ nav a {
   display: flex;
   justify-content: left;
   align-items: center;
-  background-image: url(Images/header.jpeg);
+  background-image: url(header.jpeg);
   background-size: 100%;
   width: 100%;
   height: 500px;
@@ -188,7 +188,7 @@ textarea {
 
 #headerportfolio {
   color: #ffffff;
-  background-image: url(Images/portfolio.jpg);
+  background-image: url(portfolio.jpg);
   background-size: 100%;
   display: flex;
   justify-content: left;
