@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="?    ">
+    <meta name="description" content="?    ">
+    <meta name="keywords" content="?    ">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Comak Bouwbedrijf</title>
+</head>
+
+<body>
+
+    <div id="contact">
+        <h4>
+            <a href=""> +(31)612345678 </a>
+            <a href=""> info@comakbouwbedrijf.nl </a>
+        </h4>
+    </div>
+
+    <nav>
+        <a href="index.html"> <img src="Images/comakwit.png" id="logo" alt="logo"> </a>
+        <a href="index.html"> Home </a>
+        <a href="offerte.html"> Offerte aanvragen </a>
+        <a href="portfolio.html"> Portfolio </a>
+    </nav>
+
+
+    <main id="mainofferte">
+
+        <h1>Offerte aanvragen</h1>
+        <form id="form" action="verstuurd.html">
+
+            <p>Bent u al klant bij ons?</p>
+            <label for="ja">Ja</label>
+            <input name="klant" type="radio" value="ja" id="ja">
+            <label for="nee">Nee</label>
+            <input name="klant" type="radio" value="nee" id="nee">
+
+            <p>Aanspreektitel</p>
+            <label for="deheer">De heer</label> 
+            <input name="titel" type="radio" value="Dhr" id="deheer">
+            <label for="mevrouw">Mevrouw</label>
+            <input name="titel" type="radio" value="Mw" id="mevrouw">
+            <label for="overig">Overig</label>
+            <input name="titel" type="radio" value="x" id="overig"><br>
+
+            <label for="naam">Naam<span class="sterretje">*</span></label><br>
+            <input required name="naam" type="text" id="naam"><br>
+
+            <label for="adres">Adres<span class="sterretje">*</span></label><br>
+            <input required name="adres" type="search" id="adres"><br>
+
+            <label for="telefoon">Telefoon<span class="sterretje">*</span></label><br>
+            <input required name="telefoon" type="number" id="telefoon"><br>
+
+            <label for="email">E-mail<span class="sterretje">*</span></label><br>
+            <input required name="email" type="text" id="email"><br>
+
+            <label for="fotos">Foto's</label><br>
+            <input name="fotos" type="file" id="fotos"><br>
+
+            <p>Omschrijving:</p>
+            <textarea></textarea><br>
+
+            <input type="submit" value="Verstuur" id="verstuur">
+
+        </form>
+    </main>
+    <footer>
+        <section id="footersection1">
+            <h4 class="footer">Comak Bouwbedrijf</h4>
+            <p class="footer"> Al 5 jaar uw vertrouwde dakdekker in Arnhem.</p>
+        </section>
+        <section>
+            <h4 class="footer">U vindt ons</h4>
+            <ul>
+                <li class="footer">Nederlandsestraat 21</li>
+                <li class="footer">9999QE Arnhem</li>
+                <li class="footer">info@comakbouwbedrijf.nl</li>
+                <li class="footer">Tel: 0612345678</li>
+                <li class="footer">Kvk: 98283885</li>
+            </ul>
+        </section>
+        <section>
+            <h4 class="footer">Certificering</h4>
+            <ul>
+                <li class="footer">VCA</li>
+                <li class="footer"> SBB</li>
+                <li class="footer">SCL</li>
+            </ul>
+        </section>
+    </footer>
+    <div id="onderfooter">
+        <p>
+            ©2023 Comakbouwbedrijf | All Rights Reserved
+        </p>
+    </div>
+
+</body>
+
+</html>
